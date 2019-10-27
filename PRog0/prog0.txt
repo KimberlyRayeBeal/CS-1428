@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main ( )
+{
+   cout << "Kimberly Beal" << endl
+        << "C.S.1428.751" << endl
+        << "07/11/18" << endl << endl;
+
+   cout << "Major: Applied Mathematics" << endl
+        << "Minor: Computer Science" << endl << endl;
+
+   cout << "Hometown: Austin, Texas" << endl;
+
+   return 0;
+}

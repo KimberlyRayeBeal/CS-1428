@@ -1,0 +1,11 @@
+Kimberly Beal and Devin Roseman
+C.S.1428.751
+Lab Section: L52 and L52
+07/19/18
+
+The surface area of a sphere with a radius
+of 5.75 inches is 415.48 inches squared.
+
+The surface area of a cylinder with
+a radius of 5.75 inches and a height
+of 12.00 inches is 641.28 inches squared. 

@@ -1,0 +1,15 @@
+Kimberly Beal and Devin Roseman
+C.S.1428.751
+Lab Section: L52 and L52
+08/06/18
+
+
+        Temperature Conversion Table
+
+Farenheit   Celsius     Rankine     Kelvin
+------------------------------------------
+      212    100.00      671.67     373.15
+       32      0.00      491.67     273.15
+      122     50.00      581.67     323.15
+       89     31.67      548.67     304.82
+        0    -17.78      459.67     255.37
