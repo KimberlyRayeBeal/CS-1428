@@ -1,0 +1,54 @@
+  This program reads the sides of a triangle in inches (real) from an input
+  file, calculates the perimeter and area of the triangle and prints the
+  input values plus the calculated values to an output file. An additional
+  note is included when the triangle is an equilateral triangle. After all
+  calculations are performed, the user is informed of the filename to which
+  the output has been written.
+
+  Input:
+  The first line on the input file contains one integer value indicating
+  the number of records (triangles) to process. Each subsequent line
+  (record) contains three real values separated by spaces (the sides of a
+  triangle). A count loop is used to process each record.
+
+  The program processes as follows:
+
+  - The author's personal identifying information is printed to the output
+    file.
+  - The number of records (triangles) to be processed is read from the
+    input file.
+  - As long as there are more records to process:
+         - The sides of a triangle are read from the input file using only
+           one statement.
+         - The perimeter of the triangle is calculated.
+         - If the sides of the triangle are equal,
+              - The area of the equilateral triangle is calculated.
+              - An appropriate message indicating that the triangle
+                processed is an equilateral triangle is written to the
+                output file.
+           otherwise,
+              - Heron's formula is used to calculate the area of a triangle.
+                (It is assumed that the angles are sufficiently large as
+                not to cause instability.
+         - The input values plus the calculated values are written to the
+           output file.
+  -	The author's personal identifying information is written to the screen.
+  -	An appropriate message indicating to the user the name of the output
+    file to which the results have been written is displayed on the screen.
+
+================================================================================
+
+    Area of an equilateral triangle:
+	    area = (s*s * sqrt(3)) / 4 ,
+               here s represents the length of one side
+
+    Heron's formula to calculate the area of a triangle, given three sides:
+        s = perimeter / 2;
+        area = sqrt(s * (s - side1) * (s - side2) * (s - side3));
+
+    Heron's formula as given above is numerically unstable for triangles
+    with a very small angle. An alternative that is considered stable
+    involves arranging the lengths of the sides so that: a >= b >= c and
+    uses an entirely different method to compute area. However, this
+    program assumes the angles are sufficiently large so that numerical
+    instability is not an issue.
