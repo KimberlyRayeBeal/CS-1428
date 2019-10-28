@@ -6,11 +6,6 @@
    Lab Section: L52
    Program: #1
    Due Date: 07/16/18
-
-   This program prompts the user for the diameter of a sphere (in inches), 
-   the program calculates the radius of the sphere, then
-   calculates the volume of the sphere. The the diameter, radius and 
-   volume are output to the screen.
 */
 #include <iostream>
 #include <cmath>
