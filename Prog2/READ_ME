@@ -1,0 +1,17 @@
+   This program uses one statement to read the radius of a sphere and the
+   height of a cylinder (in inches) from an input file. Then it calculates 
+   the surface area of the sphere and the surface area of the cylinder.
+
+   My basic information plus the radius of the sphere and
+   the height of the cylinder along with the calculated surface areas are
+   written to an output file in sentence form. Numeric output values are
+   displayed to two decimal places. 
+
+   An appropriate message is displayed to the screen if there is a problem
+   opening either the input file or the output file.
+
+   Input (file - prog2_751inp.txt):
+         radius in inches (same value used for sphere & cylinder), double
+         height (cylinder) in inches, double
+
+   Constants: PI = 3.141592 (double)
