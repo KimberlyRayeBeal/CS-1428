@@ -1,9 +1,9 @@
 /*
-  File: prog6_k_b351_d_r318.cpp
+  File: prog6_k_b351.cpp
 
-  Author: Kimberly Beal and Devin Roseman
+  Author: Kimberly Beal
   C.S.1428.751
-  Lab Section: L52 and L52
+  Lab Section: L52 
   Program: #6
   Due Date: 08/06/18
 
@@ -273,14 +273,6 @@ int main ( )
 /*
     Function: printIdInfo
 
-    Author(s): Kimberly Beal
-    C.S.1428.751
-    Lab Section: L52
-    Program 6 Function
-    08/06/18
-
-    Function: printIdInfo
-
     The function printIdInfo prints the authors' identifying information
     (name, class/section number, lab section number, due date) on the first,
     second, third and fourth lines of the output. printIdInfo will leave two
@@ -316,13 +308,6 @@ void printIdInfo( ostream &out, string AUTHORS, int SECTION, string DUE_DATE )
 /*
     Function: printReportHeader
 
-    Author(s): Kimberly Beal
-    C.S.1428.751
-    Lab Section: L52
-    Program 6 Function
-    08/06/18
-
-    Function: printReportHeader
 
     The function printReportHeader prints the title "Tempurature Conversion
     Table" with one line blank line before printing the column headers
@@ -353,14 +338,6 @@ void printReportHeader ( ofstream &fout )
 /*
     Function: readFahrenheitTemperatures
 
-    Author(s): Kimberly Beal
-    C.S.1428.751
-    Lab Section: L52
-    Program 6 Function
-    08/06/18
-
-    Function: readFahrenheitTemperatures
-
     The function readFahrenheitTemperatures uses a for loop with one statement
     to read the Fahrenheit temperatures from an input file into a 1-D array.
 
@@ -378,15 +355,7 @@ void readFahrenheitTemperatures ( ifstream &fin, int fahrenheit[ROWS] )
 
 /*
     Function: convertFahrenheit2Celcius
-
-    Author(s): Kimberly Beal
-    C.S.1428.751
-    Lab Section: L52
-    Program 6 Function
-    08/06/18
-
-    Function: convertFahrenheit2Celsius
-
+    
     The function convertFahrenheit2Celcius converts Farenheit to Celcius and stores
     the converted Celcius to in the CEL address of the 2-D array. This is done by
     using a count loop with one statemet.
@@ -406,14 +375,6 @@ void convertFarenheit2Celsius ( int fahrenheit[ROWS],
 }
 
 /*
-    Function: convertFahrenheit2Rankine
-
-    Author(s): Kimberly Beal
-    C.S.1428.751
-    Lab Section: L52
-    Program 6 Function
-    08/06/18
-
     Function: convertFahrenheit2Rankine
 
     The function convert Fahrenheit2Rankine converts Farenheit to Rankine and
@@ -436,14 +397,6 @@ void convertFahrenheit2Rankine ( int fahrenheit[ROWS],
 /*
     Function: convertCelsius2Kelvin
 
-    Author(s): Kimberly Beal
-    C.S.1428.751
-    Lab Section: L52
-    Program 6 Function
-    08/06/18
-
-    Function: convertCelsius2Kelvin
-
     The function convertCelsius2Kelvin converts Celcius to kelvin and stores
     the converted kelvin in the KEL address of the 2-D array. This is done by
     using a count loop with one statemet.
@@ -461,14 +414,6 @@ void convertCelsius2Kelvin ( double conversions[ROWS][COLS] )
 }
 
 /*
-    Function: printTemperatureConversionTable
-
-    Author(s): Kimberly Beal
-    C.S.1428.751
-    Lab Section: L52
-    Program 6 Function
-    08/06/18
-
     Function: printTemperatureConversionTable
 
     The function printTemperatureConversionTable prints the table of the
