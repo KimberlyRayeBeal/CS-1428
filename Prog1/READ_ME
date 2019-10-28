@@ -1,0 +1,4 @@
+   This program prompts the user for the diameter of a sphere (in inches), 
+   the program calculates the radius of the sphere, then
+   calculates the volume of the sphere. The the diameter, radius and 
+   volume are output to the screen.
