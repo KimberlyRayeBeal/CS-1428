@@ -1,0 +1,48 @@
+
+   This program displays a menu of four geometry calculator options along
+   with a prompt for the user to enter his/her menu choice. (See layout
+   below.)
+
+   Geometry Calculator
+        1.  Calculate the surface area of a cube.
+        2.  Calculate the surface area of a sphere.
+        3.  Calculate the surface area of a cylinder.
+        4.  Calculate the surface area of a rectangular prism.
+        5.  Quit
+
+   Enter your choice ( 1 - 5 ):
+
+==========================================================================
+   
+   If the user enters the maximum menu choice, the program will terminate
+   after displaying an appropriate message on the screen.
+
+Notes:
+    - With the exception of the menu choices, all input data are real and
+      measured in inches.
+    - The order of operands in all standard formulas is maintained.
+    - No single letter variable names are used in standard formulas.
+    - 3.14159 is used for the value of PI.
+    - The pow function is used for calculations involving exponentiation.
+    - A named constant is used to represent the maximum menu choice to
+      allow expansion of the menu options.
+    - The author's identifying information is displayed on the first four
+      lines of the console screen followed by two blank lines and the
+      display of the geometric calculator menu.
+    - Two blank lines are left before the first prompt in each case and
+      again before any output message displayed on the screen.
+    - All output values are appropriately labeled either by use of
+      descriptive terms or by including them in complete sentence form.
+    - Calculated results are displayed to two decimal places.
+
+ Input validation is limited to the following situations:
+   1) If the user enters a number outside the range of 1-MAX_CHOICE when
+      selecting a menu item, an appropriate error message is displayed on
+      the screen.
+   2) If the user fails to enter a value greater than zero for the
+      requested input values (length(s), radius, height), an appropriate
+      error message is displayed on the screen.
+   3) In the event that erroneous input is entered as in #1 or #2 above,
+      the user is not prompted again to enter correct input. The program
+      simply terminates after a message appropriate to the situation is
+      displayed on the screen.
